@@ -10,7 +10,6 @@
     background-color:#2c2c2c !important;
     position: fixed;
     top: 0;
-
     right: 0;
     left: 0;
     z-index: 1030;      
@@ -28,7 +27,8 @@ h1{
 
 .bg-img {
     position: relative;
-    background: url(https://source.unsplash.com/5g41N3uRPf8/1500x800) no-repeat center / cover; 
+    /* background: url(https://source.unsplash.com/5g41N3uRPf8/1500x800) no-repeat center / cover;  */
+    background: url(https://perakende.org/wp-content/uploads/2023/03/%E2%80%98Tek-Fiyatli-Dijital-Kahve-Noktasi-Coffy-yil-sonuna-kadar-100den-fazla-sube-acacak.jpg) no-repeat center / cover; 
   }
   
   .building-container{
