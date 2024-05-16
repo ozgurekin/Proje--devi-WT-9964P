@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class=" navbar navbar-expand-sm shadow-sm py-2">
+        <div class="container">
+            <a class="navbar-brand text-white fs-1  fw-bold " href="#">COFFY</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"> Menu</button>
+            <div class="collapse navbar-collapse " id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#kampanyalar" aria-current="page">Kampanyalar<span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#" aria-current="page">Download <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <button class="btn btn-primary rounded-pill" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <i class="bi bi-chat-dots-fill ">
+                                Send Feedback
+                            </i>
+                        </button>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header class="masthead py-5 mt-5">
+        <div class="container px-5 py-5">
+            <div class="row gx-5 text-center align-items-center ">
+                <div class="col-lg-6">
+                    <div class="">
+                        <h1 class="fw-light mb-3 ">Tek fiyatlı kahve noktası!</h1>
+                        <p class="lead fw-normal text-muted">İçinizi ısıtırken cebinizi yakmayan lezzetler Coffy'de!</p>
+                    </div>
+                    <div class="mt-5 text-center">
+                        <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                            <img class="app-badge " width="170px"
+                                src="	https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg"
+                                alt="">
+                        </a>
+                        <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                            <img class="app-badge " width="170px"
+                                src="	https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-3">
+                    <img src="coffyy.png" width="300px" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- section -->
+    <section class="bg-color text-center mb-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white fs-1 pt-5 pb-5 mt-5 mb-5">"Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Provident distinctio maiores ratione error! Blanditiis, est officia."</h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- kampanyalar -->
+    <div id="kampanyalar" class="pt-5 pb-5 mb-5">
+        <div class="container px-5">
+            <div class="row align-items-center text-center gx-5 ">
+                <div class="col-lg-6">
+                    <img width="300px" src="coffyy.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="row align-items-center">
+                        <div class="col m-3">
+                            <i class="fa-solid fa-gift fs-1 mb-2"></i>
+                            <h3>Hala Coffy app indirmediniz mi?</h3>
+                            <p>Uygulamayı indirdiğinde 1 ücretsiz kahve, ayrıca her 5 kahveye de +1 hediye de Coffy'den.
+                            </p>
+                        </div>
+                        <div class="col m-3">
+                            <i class="fa-solid fa-leaf fs-1 mb-2"></i>
+                            <h3>Daha temiz bir çevre için kartonsuz kahve!</h3>
+                            <p>Coffy app'ten sipariş verip kendi mug ya da termosu ile gelene kahve 2 TL indirimle.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col m-3">
+                            <i class="bi bi-cup-hot fs-1"></i>
+                            <h3>Kahve fiyatları nasıl mı olsun?</h3>
+                            <p>Tüm kahveler tek fiyat, işte böyle olsun!</p>
+                        </div>
+                        <div class="col m-3">
+                            <i class="fa-solid fa-clock fs-1"></i>
+                            <h3>Beklemeden al!</h3>
+                            <p>Bazen geç kalan otobüs beklenir ama Coffy'de sıra beklenmez.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- info -->
+    <div class="gx-5 pb-5 pt-5 bg-color-info ">
+        <div class="container mt-5 mb-5">
+            <div class="row align-items-center ps-5 ms-5">
+                <div class="col-lg-6 ">
+                    <div class="mb-5 ">
+                        <h2 class="fs-1 text-white fw-light mb-3 ">Coffy'den teslim al!</h2>
+                        <p class="text-white lead">İster gel, dilediğin kahveyi veya taptaze atıştırmalıklarımızın
+                            keyfini
+                            çıkar.
+                            Zamanın yoksa Coffy uygulamasını hemen indir, dilediğin kahveyi sipariş et.
+                            Sen gelmeden, kahven tam zamanında hazır olsun.
+                            Hiç beklemeden kahvenin keyfini çıkar. Hayat olduğu gibi aksın. </p>
+                    </div>
+                    <div>
+                        <h2 class="fs-1 text-white fw-light mb-3 ">Coffy sana gelsin!</h2>
+                        <p class="text-white lead">Coffy her yerde her zaman seninle. Canın doğru fiyata iyi
+                            kahve
+                            çektiğinde gir
+                            Yemek Sepeti ya da
+                            Getir Yemek uygulamalarından birine. Coffy’den dilediğin kahve ya da atıştırmalığı seç.
+                            Coffy
+                            sen neredeysen oraya gelsin. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <img class="rounded-circle ms-5 " width="500px" src="coffy2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section twice -->
+    <div class="building-container  img-fluid mb-0 text-white">
+        <div class="bg-img ">
+            <div class="overlay "></div>
+            <div class="container pt-5 pb-5">
+                <div class="pt-5 pb-5 mt-5 mb-5 ">
+                    <div class="position pt-5 pb-5 mt-5 mb-5 ms-5">
+                        <h1 class="display-3 ">Stop waiting. <br>
+                            Start building.</h1>
+                        <a class="btn btn-outline-light rounded-pill py-3 px-4" href="#" role="button">Download for
+                            free</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-color-info">
+                    <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control">
+                        <label for="floatingInput">İsim Soyisim</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="tel" class="form-control">
+                        <label for="floatingPassword">Telefon Numarası</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea style="height: 10rem;" type="tel" class="form-control"></textarea>
+                        <label for="floatingPassword">Mesajınız</label>
+                    </div>
+
+                </div>
+                <div class="d-grid ms-3 me-3 mb-3 ">
+                    <button type="button" class="btn btn-primary">Gönder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- get the app now -->
+    <div class="bg-color">
+        <div class="container ">
+            <div class="pt-4 pb-4 text-center">
+                <h2 class="mt-5 text-white fs-1  fw-bold">Hemen indir!</h2>
+                <div class="mt-4 pb-5 align-items-center">
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                        <img class="app-badge " width="170px"
+                            src="	https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg"
+                            alt="">
+                    </a>
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="#">
+                        <img class="app-badge " width="170px"
+                            src="	https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="bg-dark">
+        <div class="container p-4">
+            <div class="text-center text-white fst-italic">
+                Özgür Ekin Turunç
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
